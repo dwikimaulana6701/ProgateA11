@@ -1,5 +1,18 @@
 /*** smartphone device only ***/
 @media (max-width: 600px) {
+  .jumbotron h3 {
+    font-size: 25px;
+  }
+  .jumbotron p {
+    font-size: 15px;
+  }
+  .footer-content h1 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .footer-content p {
+    font-size: 14px;
+  }
   .footer-menu ul {
     display: flex;
     margin-bottom: 10px;
@@ -8,13 +21,26 @@
   .footer-menu p {
     text-align: center;
   }
-}
-
-@media (max-width: 768px) {
-  .jumbotron h3 {
-    font-size: 25px;
+  .footer-form input,
+  textarea {
+    width: 100% !important;
+    padding: 10px 0 !important;
   }
-  .jumbotron p {
-    font-size: 15px;
+  .submit {
+    width: 100% !important;
+  }
+  .footer-menu ul {
+    float: none;
+    padding: 0;
+  }
+  .footer-menu ul li {
+    padding: 0 !important;
+    display: block;
+    text-align: center;
+  }
+  .footer-menu p {
+    text-align: center !important;
+    margin: 0;
+    float: none;
   }
 }
