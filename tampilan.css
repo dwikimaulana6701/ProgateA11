@@ -1,179 +1,222 @@
-body{
-    font-family: montserrat;
+body {
+  font-family: montserrat;
+  padding: 0;
+  margin: 0;
 }
 
-.header{
-    width: auto;
-    padding: 20px;
-    background-color:rgb(109, 109, 109);
-    top: 0;
-    left: 0;
-    right: 0;
-    position: fixed;
+.header {
+  width: auto;
+  padding: 20px;
+  background-color: rgb(109, 109, 109);
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  z-index: 10;
 }
 
-.header-logo{
-    float: left;
-    border-right: 2px solid black;
-    padding-right: 10px;
+.header-logo {
+  float: left;
+  border-right: 2px solid black;
+  padding-right: 10px;
 }
 
-.pasin li{
-    float: left;
-    list-style: none;
-    padding: 10px;
+.jumbotron {
+  padding: 0;
+  margin: 0;
+  background-image: url(./img/bg-image1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: block;
 }
 
-.kananin li{
-    list-style: none;
-    float: right;
-    padding: 10px;
+.jumbotron h3 {
+  font-size: 40px;
+}
+.jumbotron p {
+  font-size: 27px;
+}
+.jumbotron .tagline {
+  animation: fadeOut 4s ease-out;
+  width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
 
-.container{
-    margin-right: 50px;
-    margin-left: 50px;
-    padding-top: 100px;
-    padding-bottom: 500px;
+.pasin li {
+  float: left;
+  list-style: none;
+  padding: 10px;
 }
 
-.profil1 li{
-    list-style: none;
-    float: left;
-    padding: 6px;
-}
-.profil2 li{
-    list-style: none;
-    float: right;
-    padding: 6px;
-}
-.profil3 li{
-    list-style: none;
-    float: left;
-    padding: 6px;
-}
-.profil4 li{
-    list-style: none;
-    float: right;
-    padding: 6px;
-}
-.profil5 li{
-    list-style: none;
-    float: left;
-    padding: 6px;
+.kananin li {
+  list-style: none;
+  float: right;
+  padding: 10px;
 }
 
-.profil1{
-    padding-bottom: 100px;
+.container {
+  margin-right: 50px;
+  margin-left: 50px;
+  padding-top: 100px;
+  padding-bottom: 500px;
 }
 
-.profil1 img{
-    width: 270px;
-    height: 270px;
-    float: left;
-    margin: 5px;
-    text-align: left;
+.profil1 li {
+  list-style: none;
+  float: left;
+  padding: 6px;
+}
+.profil2 li {
+  list-style: none;
+  float: right;
+  padding: 6px;
+}
+.profil3 li {
+  list-style: none;
+  float: left;
+  padding: 6px;
+}
+.profil4 li {
+  list-style: none;
+  float: right;
+  padding: 6px;
+}
+.profil5 li {
+  list-style: none;
+  float: left;
+  padding: 6px;
 }
 
-.profil2{
-    padding-bottom: 100px;
-    text-align: right;
+.profil1 {
+  padding-bottom: 100px;
 }
 
-.profil2 img{
-    width: 270px;
-    height: 270px;
-    float: right;
-    margin: 5px;
+.profil1 img {
+  width: 270px;
+  height: 270px;
+  float: left;
+  margin: 5px;
+  text-align: left;
 }
 
-.profil3{
-    padding-bottom: 100px;
+.profil2 {
+  padding-bottom: 100px;
+  text-align: right;
 }
 
-.profil3 img{
-    width: 270px;
-    height: 270px;
-    float: left;
-    margin: 5px;
-    text-align: left;
+.profil2 img {
+  width: 270px;
+  height: 270px;
+  float: right;
+  margin: 5px;
 }
 
-.profil4{
-    padding-bottom: 100px;
-    text-align: right;
+.profil3 {
+  padding-bottom: 100px;
 }
 
-.profil4 img{
-    width: 270px;
-    height: 270px;
-    float: right;
-    margin: 5px;
+.profil3 img {
+  width: 270px;
+  height: 270px;
+  float: left;
+  margin: 5px;
+  text-align: left;
 }
 
-.profil5 img{
-    width: 270px;
-    height: 270px;
-    float: left;
-    margin: 5px;
-    text-align: left;
+.profil4 {
+  padding-bottom: 100px;
+  text-align: right;
+}
+
+.profil4 img {
+  width: 270px;
+  height: 270px;
+  float: right;
+  margin: 5px;
+}
+
+.profil5 img {
+  width: 270px;
+  height: 270px;
+  float: left;
+  margin: 5px;
+  text-align: left;
 }
 
 /* footer */
-.content{
-    position:static;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background: #000;
-    height: auto;
-    width: 100vw;
-    color: #fff;
+.content {
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #000;
+  height: auto;
+  width: 100vw;
+  color: #fff;
 }
-.footer-content{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-}
-
-.footer-content h1{
-    font-size: 25px;
-    font-weight: bold;
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
 }
 
-.footer-content p{
-    margin: 5px auto;
-    line-height: 15px;
-    font-size: 15px;
-    color: rgb(247, 243, 243);
+.footer-content h1 {
+  font-size: 25px;
+  font-weight: bold;
 }
 
-.footer-menu ul{
-    padding-left: 20px;
-    display: flex;
-    font-size: 12px;
-    float: left;
+.footer-content p {
+  margin: 5px auto;
+  line-height: 15px;
+  font-size: 15px;
+  color: rgb(247, 243, 243);
 }
 
-.footer-menu ul li{
-    padding-right: 10px;
-    display: block;
+.footer-menu ul {
+  padding-left: 20px;
+  display: flex;
+  font-size: 12px;
+  float: left;
 }
 
-.footer-menu ul li a{
+.footer-menu ul li {
+  padding-right: 10px;
+  display: block;
+}
+
+.footer-menu ul li a {
   color: #b7c0c0;
   text-decoration: none;
 }
 
-.footer-menu ul li a:hover{
+.footer-menu ul li a:hover {
   color: #aabfc4;
 }
 
-.footer-menu p{
-    margin-right: 20px;
-    font-size: 12px;
-    padding: 10px;
-    text-align: right;
+.footer-menu p {
+  margin-right: 20px;
+  font-size: 12px;
+  padding: 10px;
+  text-align: right;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
