@@ -1,3 +1,7 @@
+body{
+    font-family: montserrat;
+}
+
 .header{
     width: auto;
     padding: 20px;
@@ -87,7 +91,6 @@
     padding-bottom: 100px;
 }
 
-
 .profil3 img{
     width: 270px;
     height: 270px;
@@ -114,4 +117,63 @@
     float: left;
     margin: 5px;
     text-align: left;
+}
+
+/* footer */
+.content{
+    position:static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #000;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-content p{
+    margin: 5px auto;
+    line-height: 15px;
+    font-size: 15px;
+    color: rgb(247, 243, 243);
+}
+
+.footer-menu ul{
+    padding-left: 20px;
+    display: flex;
+    font-size: 12px;
+    float: left;
+}
+
+.footer-menu ul li{
+    padding-right: 10px;
+    display: block;
+}
+
+.footer-menu ul li a{
+  color: #b7c0c0;
+  text-decoration: none;
+}
+
+.footer-menu ul li a:hover{
+  color: #aabfc4;
+}
+
+.footer-menu p{
+    margin-right: 20px;
+    font-size: 12px;
+    padding: 10px;
+    text-align: right;
 }

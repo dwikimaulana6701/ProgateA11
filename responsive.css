@@ -1,0 +1,11 @@
+/*** smartphone device only ***/
+@media (max-width:600px) {
+    .footer-menu ul{
+      display: flex;
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    .footer-menu p{
+      text-align: center;
+    }
+    }
