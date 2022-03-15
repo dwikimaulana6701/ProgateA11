@@ -4,3 +4,8 @@ A simple designed landing page about team profile using only html and css. Clear
 ## Links:
 
 + [Live Preview](https://dwikimaulana6701.github.io/ProgateA11/)
+
+## About
+
+This is for a Group Project Assignment FGA 2022 FRONTEND - HTML and CSS Module.
++ [Access the assignment](https://docs.google.com/document/d/1BN3BPIEEhlQ1lbybmblMP6UsHRwIKeMf5ZV2-qC1kp8/edit)
